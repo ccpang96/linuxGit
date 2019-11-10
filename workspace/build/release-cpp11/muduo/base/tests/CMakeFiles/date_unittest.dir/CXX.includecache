@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ccpang/Desktop/Git/workspace/muduo/muduo/base/Date.h
+muduo/base/copyable.h
+/home/ccpang/Desktop/Git/workspace/muduo/muduo/base/muduo/base/copyable.h
+muduo/base/Types.h
+/home/ccpang/Desktop/Git/workspace/muduo/muduo/base/muduo/base/Types.h
+
+/home/ccpang/Desktop/Git/workspace/muduo/muduo/base/Types.h
+stdint.h
+-
+string.h
+-
+string
+-
+assert.h
+-
+
+/home/ccpang/Desktop/Git/workspace/muduo/muduo/base/copyable.h
+
+/home/ccpang/Desktop/Git/workspace/muduo/muduo/base/tests/Date_unittest.cc
+muduo/base/Date.h
+/home/ccpang/Desktop/Git/workspace/muduo/muduo/base/tests/muduo/base/Date.h
+assert.h
+-
+stdio.h
+-
+

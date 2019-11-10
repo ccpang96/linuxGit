@@ -1,0 +1,1 @@
+cmd_/home/nvidia/yybt/redhawk_20191022/k7_pcie.ko := ld -EL -r  -T /usr/src/linux-4.4.38r28.2.1RedHawk7.3.2/kernel/kernel-4.4/scripts/module-common.lds --build-id  -o /home/nvidia/yybt/redhawk_20191022/k7_pcie.ko /home/nvidia/yybt/redhawk_20191022/k7_pcie.o /home/nvidia/yybt/redhawk_20191022/k7_pcie.mod.o

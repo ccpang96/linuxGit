@@ -1,0 +1,25 @@
+This sample driver module may be used with or without the kernel rcim
+driver configured/built into the currently executing kernel.
+
+However, if the system has an RCIM III and the kernel rcim driver IS
+configured into the kernel, then disable use of MSI interrupts with
+"rcim.nomsi=1" on the grub boot command line since MSI interrupts may
+not be shared between this sample driver and the kernel's rcim driver.
+
+To compile the module do:
+        $ cd "path to module source code"
+        $ su
+        # make config
+        # make
+
+To load the module and create the device file do:
+        $ su
+        # insmod ./sample_mod.ko
+        # sh ./sample_mknod.sh
+
+To compile and run the user-level example do:
+	$ cc -o usersample usersample.c
+        $ ./usersample
+
+To unload the module do:
+        # rmmod sample_mod

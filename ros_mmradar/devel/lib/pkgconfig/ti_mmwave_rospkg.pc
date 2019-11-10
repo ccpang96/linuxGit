@@ -1,0 +1,8 @@
+prefix=/home/ccpang/Desktop/Git/ros_mmradar/devel
+
+Name: ti_mmwave_rospkg
+Description: Description of ti_mmwave_rospkg
+Version: 3.3.0
+Cflags: -I/home/ccpang/Desktop/Git/ros_mmradar/devel/include -I/home/ccpang/Desktop/Git/ros_mmradar/src/ti_mmwave_rospkg/include
+Libs: -L/home/ccpang/Desktop/Git/ros_mmradar/devel/lib -lmmwave
+Requires: 

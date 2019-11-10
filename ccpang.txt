@@ -1,0 +1,10 @@
+dmesg | grep ttyS*
+
+sudo chmod 666 /dev/ttyACM0
+sudo chmod 666 /dev/ttyACM1
+
+roslaunch ti_mmwave_rospkg 1642es2_short_range.launch
+cd bagfile
+rosbag record -O radardata /ti_mmwave/radar_scan 
+rostopic echo -b radardata.bag -p /ti_mmwave/radar_scan > radar_scan.csv
+

@@ -1,0 +1,8 @@
+prefix=/home/ccpang/Desktop/Git/ros_mmradar/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/ccpang/Desktop/Git/ros_mmradar/src/serial/include
+Libs: -L/home/ccpang/Desktop/Git/ros_mmradar/devel/lib -lserial -lrt -lpthread
+Requires: 

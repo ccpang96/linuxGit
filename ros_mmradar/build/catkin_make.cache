@@ -1,0 +1,2 @@
+serial:ti_mmwave_rospkg
+-DCATKIN_DEVEL_PREFIX=/home/ccpang/Desktop/Git/ros_mmradar/devel -DCMAKE_INSTALL_PREFIX=/home/ccpang/Desktop/Git/ros_mmradar/install -G Unix Makefiles

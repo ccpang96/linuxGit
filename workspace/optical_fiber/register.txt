@@ -1,0 +1,73 @@
+parameter GTX_TX_CONTROL_WORD_CNT   = 13'h200;  
+复位值 194 可读可写寄存器
+发送时发送控制字个数  12bit有效
+
+parameter GTX_TX_FIFO_DATA_ADDR0    = 13'h204;  暂时不使用
+parameter GTX_TX_FIFO_DATA_ADDR1    = 13'h208;  暂时不使用
+
+
+parameter GTX_TX_START_ADDR         = 13'h20C; 
+启动通道发送寄存器，默认值0，只写寄存器
+ 2bit寄存器 
+ 
+ bit0 ：
+ 0：不启动通道0发送
+ 1： 启动通道0发送
+ bit1 ：
+ 0：不启动通道１发送
+ 1： 启动通道１发送
+
+parameter GTX_TX_MODE               = 13'h210;
+默认值０ｘ０１  发送模式寄存器
+2bit寄存器：
+0比特：
+0 ：发送没有数据发送
+1：发送时有数据要发送
+1比特：
+0：发送时没有空闲字符发送
+1：发送时有空闲字符发送
+
+parameter GTX_TX_CONSTANT_CNT       = 13'h214; 保留
+
+parameter GTX_TX_DATA_CNT           = 13'h218;
+发送数据时每帧发送的数据个数，
+12bit的寄存器，默认值4096
+
+parameter GTX_RX_DATA_CHANNEL_EN    = 13'h21C;
+接收通道使能寄存器 默认值3
+2bit的寄存器
+0bit：
+0：通道0不接收
+1：通道0接收
+
+1bit：
+0：通道1不接收
+1：通道1接收
+parameter GTX_RX_CONTROL_WORD_CNT   = 13'h220;
+每帧接收控制字的长度，测试时需要和GTX_TX_CONTROL_WORD_CNT   = 13'h200; 值配置为一样
+默认值194
+
+parameter GTX_TX_KEY_EN             = 13'h224;
+
+key指示发送寄存器
+ 【11：0】指示12bit的头  【1：0】--7fff  【3：2】--BC1C
+ 【27：16】指示12bit的尾  【17：15】--7fff     
+        
+        
+ 
+ 
+ 
+ parameter GTX_TX_IDLE_CHAR_FLAG     = 13'h228;
+ 发空闲字符时，key的指示位，2bit  ///BC3C空闲字符K的标法。 1代表3c标成key，2表示bc标称key，3表示bc3c是key
+ 
+ 
+ 
+parameter GTX_TX_SW_RST_ADDR        = 13'h22C;
+软件复位发送模块，软件写1开始复位，硬件自动清0
+
+
+parameter GTX_TX_FIFO_RST_ADDR      = 13'h230;    
+软件复位发送FIFO，软件写1开启复位，硬件自动清0   
+        
+        
+        

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/serial_example.dir/examples/serial_example.cc.o  -o /home/ccpang/Desktop/Git/ros_mmradar/devel/lib/serial/serial_example -Wl,-rpath,/home/ccpang/Desktop/Git/ros_mmradar/devel/lib /home/ccpang/Desktop/Git/ros_mmradar/devel/lib/libserial.so -lrt -lpthread 
