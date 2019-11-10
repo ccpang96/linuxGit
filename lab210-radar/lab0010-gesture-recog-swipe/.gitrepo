@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://bitbucket.itg.ti.com/scm/mmwave_apps/lab0010-gesture-recog-swipe.git
+	branch = lab0010-V1.1.0_RC0
+	commit = acabca4e9cbd07a039ca7b3c19dadbc08a385dce
+	parent = fa20aa36eca9ab012afaf918d5bcdc37c0905cf6
+	cmdver = 0.3.1

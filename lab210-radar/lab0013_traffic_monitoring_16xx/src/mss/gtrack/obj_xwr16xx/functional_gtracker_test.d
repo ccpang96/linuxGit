@@ -1,0 +1,13 @@
+obj_xwr16xx/functional_gtracker_test.oer4f: test/xwr16xx/functional/functional_gtracker_test.c
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/ti-cgt-arm_16.9.6.LTS/include/stdint.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/ti-cgt-arm_16.9.6.LTS/include/stdlib.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/ti-cgt-arm_16.9.6.LTS/include/linkage.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/ti-cgt-arm_16.9.6.LTS/include/string.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/ti-cgt-arm_16.9.6.LTS/include/stdio.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/ti-cgt-arm_16.9.6.LTS/include/stdarg.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/mmwave_sdk_01_02_00_05/packages/ti/alg/gtrack/gtrack.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/ti-cgt-arm_16.9.6.LTS/include/stddef.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/mmwave_sdk_01_02_00_05/packages/ti/drivers/osal/DebugP.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/ti-cgt-arm_16.9.6.LTS/include/stdbool.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/ti-cgt-arm_16.9.6.LTS/include/stddef.h
+obj_xwr16xx/functional_gtracker_test.oer4f: C:/ti/mmwave_sdk_01_02_00_05/packages/ti/utils/testlogger/logger.h

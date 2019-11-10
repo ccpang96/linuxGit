@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://bitbucket.itg.ti.com/scm/mmwave_apps/lab0012_srr_16xx.git
+	branch = LAB0012_V1.0.0_RC1
+	commit = b3e6e96239792910b2bf28a1aad1314739e7c491
+	parent = 41d77e8a1386804a7c94dc37c065acab2e9bf420
+	cmdver = 0.3.1
